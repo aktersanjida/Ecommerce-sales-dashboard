@@ -1,42 +1,97 @@
 # E-Commerce Sales Dashboard
 
-I am thrilled to share a data analysis project named **E-Commerce Sales Dashboard** which I completed using **Power BI**. This project aims to find the necessary KPIs and analyze the sales for different regions and segments, which will help determine future valuable strategies for the business.
+## Project Overview
 
-## Problem Statement:
+This project aims to create a Sales Dashboard for a US-based E-commerce Sales Company, focusing on various KPIs and insights to inform future business strategies.
 
-A US Based E-commerce Sales Company wants us to create a Sales Dashboard showing information of YTD sales and generate insights for the following:
+## Problem Statement
 
-- Create a KPI Banner showing YTD Sales, YTD Profit, YTD Quantity sold, YTD Profit Margin.
-- Find Year-on-year growth for each KPI and show a YTD sparkling for each measure in the KPI to understand the monthly trend for each fact.
-- Find YTD Sales, PYTD Sales, and YoY Sales growth for different customer categories. Add a trend icon for each category.
-- Find YTD Sales performance by each State.
-- Top 5 and Bottom 5 Products by Sales.
-- YTD Sales by Region to know the best and worst performing regions all over the country.
-- YTD Sales by shipping type to get the best shipping type percentage.
+The company requires a Sales Dashboard displaying Year-to-Date (YTD) sales information and insights, including:
 
-## Steps:
+- **KPI Banner:** Showing YTD Sales, YTD Profit, YTD Quantity Sold, and YTD Profit Margin.
+- **Year-on-Year Growth:** Calculating YoY growth for each KPI with monthly trend sparklines.
+- **Customer Category Analysis:** YTD Sales, PYTD Sales, and YoY Sales growth with trend icons for each category.
+- **State-wise Sales Performance:** Analyzing YTD Sales across different states.
+- **Product Performance:** Highlighting the top 5 and bottom 5 products by sales.
+- **Regional Sales:** Identifying best and worst performing regions.
+- **Shipping Type Analysis:** Determining the best-performing shipping type by percentage.
 
-1. **Import data in MS SQL Server**
+## Steps Taken
 
-   The origin of the dataset is from Kaggle. Then the data is imported into the MS SQL Server. Power BI is connected to MS SQL Server to fetch the data.
+### Data Importation
 
-2. **Data Preprocessing**
+- The dataset was sourced from Kaggle.
+- Data was imported into MS SQL Server.
+- Connected Power BI to MS SQL Server for data fetching.
 
-   After importing the data from the data source, performed data cleaning and data modeling using Power Query. A new table named 'Calendar' was generated to extract months from the original table. DAX functions like `Calculate`, `Sum`, `Sumx`, `Filter`, `values`, `selectedvalue`, `return`, `concatenate`, `divide`, `var`, etc. were used to append or create calculated measures. Time Intelligence functions (`TOTALYTD`, `SAMPERIODLASTYEAR`, etc.) were also used.
+### Data Preprocessing
 
-3. **Data Visualization**
+- Performed data cleaning and modeling using Power Query.
+- Created a 'Calendar' table to extract months from the original table.
+- Utilized DAX functions (Calculate, Sum, Sumx, Filter, values, selectedvalue, return, concatenate, divide, var, etc.) and Time Intelligence functions (TOTALYTD, SAMPERIODLASTYEAR, etc.) to create calculated measures.
 
-   This insightful dashboard shows an overview of multiple parameters and KPIs. Different types of visualization methods like Area charts, Bar charts, Donut chart, Slicer, Matrix, and Map are used.
+### Data Visualization
+
+- Created an insightful dashboard using various visualization methods: Area charts, Bar charts, Donut chart, Slicer, Matrix, and Map.
 
 ## Insights
 
-- The YTD sales have decreased by 0.83% compared to the previous year as well as the quantity, which decreased by 7.29%.
-- YTD sales have increased by 2.61% for the Central region's people who are basically from Texas.
-- Most revenue has come from the West region, and the YTD Sales are $4M. In this region, the YoY sales for office supplies have decreased but the sales for furniture have increased. The standard class shipping type is almost 60%.
-- The South region has given the most amount of losses. YTD sales and profit have decreased simultaneously in this region.
-- The top product is Staple envelope. Also, the most sold category is office supplies.
-- The sales from the standard class shipping type is almost 60%.
+### YTD Sales Analysis
 
-## Hashtags
+- **Overall YTD Sales:** $3,496,845
+- Customer segments such as "Mary" show significantly higher sales.
+- YTD Sales have decreased by 0.83% compared to the previous year.
 
-#PowerBI #MSSQL #Analysis #DAX #PowerQuery #DataModeling #DataScience #DataAnalyst #DataEngineer #DataVisualizationCommunity #BusinessIntelligenceCommunity #MarketingAnalytics #SalesDashboard #DataProject #DataDashboard #DataInsights #DataReporting #InteractiveDashboard #DataStorytelling
+### YTD Profit Analysis
+
+- **Overall YTD Profit:** $388,948.30
+- Certain customer segments show notably higher profits.
+
+### YoY Profit Analysis
+
+- **Overall YoY Profit:** -2.95%
+- States like WV show significantly higher profits.
+
+### YTD Quantity Analysis
+
+- **Overall YTD Quantity:** 32,887
+- Customer segments such as "Mary" show higher quantities sold.
+
+### YoY Quantity Analysis
+
+- **Overall YoY Quantity:** -6.55%
+- States like ND show higher quantities sold.
+
+### YTD Profit Margin Analysis
+
+- **Overall YTD Profit Margin:** 11%
+- Some segments significantly outperform others.
+
+## Visualizations
+
+The dashboard uses the following visualization methods:
+- Area charts
+- Bar charts
+- Donut chart
+- Slicer
+- Matrix
+- Map
+
+## Conclusion
+
+This E-Commerce Sales Dashboard provides valuable insights into sales performance across different regions, customer segments, and product categories. The analysis helps in understanding trends and making data-driven decisions for future business strategies.
+
+## Technologies Used
+
+- Power BI
+- MS SQL Server
+- Power Query
+- DAX
+
+## Contact
+
+For more details or inquiries, please contact [Your Name] at [Your Email].
+
+---
+
+**Keywords:** Data Analytics, E-commerce, Sales Dashboard, Data Visualization, Business Intelligence, Power BI, SQL, DAX, KPI
