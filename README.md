@@ -88,10 +88,5 @@ This E-Commerce Sales Dashboard provides valuable insights into sales performanc
 - Power Query
 - DAX
 
-## Contact
-
-For more details or inquiries, please contact [Your Name] at [Your Email].
-
----
 
 **Keywords:** Data Analytics, E-commerce, Sales Dashboard, Data Visualization, Business Intelligence, Power BI, SQL, DAX, KPI
